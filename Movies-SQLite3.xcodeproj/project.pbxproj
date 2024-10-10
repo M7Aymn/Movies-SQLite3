@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C644D7B92C576E5F00FA04E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7B82C576E5F00FA04E4 /* AppDelegate.swift */; };
 		C644D7BB2C576E5F00FA04E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7BA2C576E5F00FA04E4 /* SceneDelegate.swift */; };
-		C644D7BD2C576E5F00FA04E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7BC2C576E5F00FA04E4 /* ViewController.swift */; };
-		C644D7C02C576E5F00FA04E4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C644D7BF2C576E5F00FA04E4 /* Base */; };
 		C644D7C22C576E6100FA04E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C644D7C12C576E6100FA04E4 /* Assets.xcassets */; };
 		C644D7C52C576E6100FA04E4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C644D7C42C576E6100FA04E4 /* Base */; };
+		C644D7D32C579CC500FA04E4 /* AddMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7CC2C579CC500FA04E4 /* AddMovieVC.swift */; };
+		C644D7D42C579CC500FA04E4 /* AddMovieProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7CD2C579CC500FA04E4 /* AddMovieProtocol.swift */; };
+		C644D7D52C579CC500FA04E4 /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7CE2C579CC500FA04E4 /* MoviesVC.swift */; };
+		C644D7D62C579CC500FA04E4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7CF2C579CC500FA04E4 /* Movie.swift */; };
+		C644D7D72C579CC500FA04E4 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7D02C579CC500FA04E4 /* DetailsVC.swift */; };
+		C644D7D82C579CC500FA04E4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7D12C579CC500FA04E4 /* MovieCell.swift */; };
+		C644D7D92C579CC500FA04E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C644D7D22C579CC500FA04E4 /* Main.storyboard */; };
+		C644D7DB2C579E5A00FA04E4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C644D7DA2C579E5A00FA04E4 /* DatabaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C644D7B52C576E5F00FA04E4 /* Day5-Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day5-Task1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C644D7B52C576E5F00FA04E4 /* Movies-SQLite3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Movies-SQLite3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C644D7B82C576E5F00FA04E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C644D7BA2C576E5F00FA04E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C644D7BC2C576E5F00FA04E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C644D7BF2C576E5F00FA04E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C644D7C12C576E6100FA04E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C644D7C42C576E6100FA04E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C644D7C62C576E6100FA04E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C644D7CC2C579CC500FA04E4 /* AddMovieVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieVC.swift; sourceTree = "<group>"; };
+		C644D7CD2C579CC500FA04E4 /* AddMovieProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieProtocol.swift; sourceTree = "<group>"; };
+		C644D7CE2C579CC500FA04E4 /* MoviesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
+		C644D7CF2C579CC500FA04E4 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C644D7D02C579CC500FA04E4 /* DetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C644D7D12C579CC500FA04E4 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C644D7D22C579CC500FA04E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C644D7DA2C579E5A00FA04E4 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +52,7 @@
 		C644D7AC2C576E5F00FA04E4 = {
 			isa = PBXGroup;
 			children = (
-				C644D7B72C576E5F00FA04E4 /* Day5-Task1 */,
+				C644D7B72C576E5F00FA04E4 /* Movies-SQLite3 */,
 				C644D7B62C576E5F00FA04E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +60,37 @@
 		C644D7B62C576E5F00FA04E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C644D7B52C576E5F00FA04E4 /* Day5-Task1.app */,
+				C644D7B52C576E5F00FA04E4 /* Movies-SQLite3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C644D7B72C576E5F00FA04E4 /* Day5-Task1 */ = {
+		C644D7B72C576E5F00FA04E4 /* Movies-SQLite3 */ = {
 			isa = PBXGroup;
 			children = (
 				C644D7B82C576E5F00FA04E4 /* AppDelegate.swift */,
 				C644D7BA2C576E5F00FA04E4 /* SceneDelegate.swift */,
-				C644D7BC2C576E5F00FA04E4 /* ViewController.swift */,
-				C644D7BE2C576E5F00FA04E4 /* Main.storyboard */,
 				C644D7C12C576E6100FA04E4 /* Assets.xcassets */,
 				C644D7C32C576E6100FA04E4 /* LaunchScreen.storyboard */,
 				C644D7C62C576E6100FA04E4 /* Info.plist */,
+				C644D7CD2C579CC500FA04E4 /* AddMovieProtocol.swift */,
+				C644D7CC2C579CC500FA04E4 /* AddMovieVC.swift */,
+				C644D7D02C579CC500FA04E4 /* DetailsVC.swift */,
+				C644D7D22C579CC500FA04E4 /* Main.storyboard */,
+				C644D7CF2C579CC500FA04E4 /* Movie.swift */,
+				C644D7D12C579CC500FA04E4 /* MovieCell.swift */,
+				C644D7CE2C579CC500FA04E4 /* MoviesVC.swift */,
+				C644D7DA2C579E5A00FA04E4 /* DatabaseManager.swift */,
 			);
-			path = "Day5-Task1";
+			path = "Movies-SQLite3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C644D7B42C576E5F00FA04E4 /* Day5-Task1 */ = {
+		C644D7B42C576E5F00FA04E4 /* Movies-SQLite3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C644D7C92C576E6100FA04E4 /* Build configuration list for PBXNativeTarget "Day5-Task1" */;
+			buildConfigurationList = C644D7C92C576E6100FA04E4 /* Build configuration list for PBXNativeTarget "Movies-SQLite3" */;
 			buildPhases = (
 				C644D7B12C576E5F00FA04E4 /* Sources */,
 				C644D7B22C576E5F00FA04E4 /* Frameworks */,
@@ -82,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = "Day5-Task1";
+			name = "Movies-SQLite3";
 			productName = "Day5-Task1";
-			productReference = C644D7B52C576E5F00FA04E4 /* Day5-Task1.app */;
+			productReference = C644D7B52C576E5F00FA04E4 /* Movies-SQLite3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C644D7B02C576E5F00FA04E4 /* Build configuration list for PBXProject "Day5-Task1" */;
+			buildConfigurationList = C644D7B02C576E5F00FA04E4 /* Build configuration list for PBXProject "Movies-SQLite3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C644D7B42C576E5F00FA04E4 /* Day5-Task1 */,
+				C644D7B42C576E5F00FA04E4 /* Movies-SQLite3 */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +145,7 @@
 			files = (
 				C644D7C22C576E6100FA04E4 /* Assets.xcassets in Resources */,
 				C644D7C52C576E6100FA04E4 /* Base in Resources */,
-				C644D7C02C576E5F00FA04E4 /* Base in Resources */,
+				C644D7D92C579CC500FA04E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +156,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C644D7BD2C576E5F00FA04E4 /* ViewController.swift in Sources */,
+				C644D7D62C579CC500FA04E4 /* Movie.swift in Sources */,
+				C644D7D72C579CC500FA04E4 /* DetailsVC.swift in Sources */,
+				C644D7DB2C579E5A00FA04E4 /* DatabaseManager.swift in Sources */,
+				C644D7D82C579CC500FA04E4 /* MovieCell.swift in Sources */,
+				C644D7D32C579CC500FA04E4 /* AddMovieVC.swift in Sources */,
 				C644D7B92C576E5F00FA04E4 /* AppDelegate.swift in Sources */,
 				C644D7BB2C576E5F00FA04E4 /* SceneDelegate.swift in Sources */,
+				C644D7D42C579CC500FA04E4 /* AddMovieProtocol.swift in Sources */,
+				C644D7D52C579CC500FA04E4 /* MoviesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C644D7BE2C576E5F00FA04E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C644D7BF2C576E5F00FA04E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C644D7C32C576E6100FA04E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,8 +308,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJG6K68J2D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Day5-Task1/Info.plist";
+				INFOPLIST_FILE = "Movies-SQLite3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Day5-Task1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Movies-SQLite3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,8 +336,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WJG6K68J2D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Day5-Task1/Info.plist";
+				INFOPLIST_FILE = "Movies-SQLite3/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Day5-Task1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m7aymn.Movies-SQLite3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -342,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C644D7B02C576E5F00FA04E4 /* Build configuration list for PBXProject "Day5-Task1" */ = {
+		C644D7B02C576E5F00FA04E4 /* Build configuration list for PBXProject "Movies-SQLite3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C644D7C72C576E6100FA04E4 /* Debug */,
@@ -351,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C644D7C92C576E6100FA04E4 /* Build configuration list for PBXNativeTarget "Day5-Task1" */ = {
+		C644D7C92C576E6100FA04E4 /* Build configuration list for PBXNativeTarget "Movies-SQLite3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C644D7CA2C576E6100FA04E4 /* Debug */,
